@@ -1,0 +1,24 @@
+.button__comp {
+    width:60%;
+    padding:12px 18px;
+    margin-bottom:4px;
+    border:1px solid #01C38D;
+    color:#F5FAFA;
+    font-size:17px;
+    cursor:pointer;
+    transition:all 0.2s ease-in-out;
+    text-decoration:none;
+    text-align:center;
+}
+
+.button__comp:hover {
+    -webkit-box-shadow: 0px -1px 16px 0px rgba(1,195,141,1);
+    -moz-box-shadow: 0px -1px 16px 0px rgba(1,195,141,1);
+    box-shadow: 0px -1px 16px 0px rgba(1,195,141,1);
+}
+
+@media screen and (max-width: 1190px) {
+    .button__comp {
+        width:100%;
+    }
+}

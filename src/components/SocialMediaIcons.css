@@ -1,0 +1,26 @@
+.social_media_div {
+    position:absolute;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:0 22px;
+    flex-direction:column;
+    z-index:2;
+}
+
+.social_media_div > .icons {
+    display:flex;
+    flex-direction:column;
+    /*border:1px solid #01C38D;*/
+    padding:12px;
+    border-radius:8px;
+}
+
+@media screen and (max-width: 1650px) {
+    .social_media_div {
+        display:none;
+    }
+}
+
+/* 1240px */

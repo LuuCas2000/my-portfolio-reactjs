@@ -1,0 +1,26 @@
+.carousel-button-group {
+    width:120%;
+    position:absolute;
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    padding:0 20px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1630px) {
+    .carousel-button-group {
+        width:110%;
+        display:flex;
+        justify-content:space-between;
+        padding:0 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel-button-group {
+        width:110%;
+    }
+}

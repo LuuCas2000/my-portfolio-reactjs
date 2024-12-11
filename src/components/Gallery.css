@@ -1,0 +1,77 @@
+.gallery {
+    width:300px;
+    height:auto;
+    border-top-left-radius:8px;
+    border-bottom-right-radius:8px;
+    border:1px solid #01C38D;
+    /*margin:12px;*/
+    display:flex;
+    flex-direction:column;
+    padding:12px 0;
+    margin:0 auto;
+}
+
+.project__image {
+    width:90%;
+    height:100px;
+    align-self:center;
+    border-top-left-radius:8px;
+}
+
+.project__image > img {
+    width:100%;
+    height:100px;
+    border-top-left-radius:8px;
+}
+
+.project__name {
+    width:90%;
+    align-self:center;
+    text-align:center;
+    padding:8px 0;
+    margin-top:4px;
+}
+
+.project__name > span {
+    color:#01C38D;
+    font-size:20px;
+}
+
+.project__tools {
+    width:90%;
+    padding:8px 0;
+    align-self:center;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+}
+
+.project__tools > span {
+    color:#F5FAFA;
+    font-size:20px;
+}
+
+.project__tools > .tools {
+    font-size:17px;
+    margin-top:8px;
+    color:#01C38D;
+}
+
+.project__links {
+    width:90%;
+    align-self:center;
+    padding:8px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:12px;
+}
+
+.project__links > button {
+    width:120px;
+    padding:8px 0;
+    margin:0 4px;
+    outline:none;
+    cursor:pointer;
+    border:none;
+}

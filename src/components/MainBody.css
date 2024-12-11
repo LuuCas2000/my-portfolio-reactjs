@@ -1,0 +1,93 @@
+.main__body {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.main__body > .my__infos {
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.main__body > .my__infos > .my__picture {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    border:5px solid #01C38D;
+}
+
+.main__body > .my__infos > .my__picture > img {
+    width:100%;
+    height:100%;
+    border-radius:50%;
+}
+
+.main__body > .my__infos > .my__name {
+    margin-top:25px;
+}
+
+.main__body > .my__infos > .my__name > span {
+    color:#F5FAFA;
+    font-size:30px;
+}
+
+.main__body > .my__infos > .my__description {
+    margin-top:25px;
+}
+
+.main__body > .my__infos > .my__description > span {
+    color:#F5FAFA;
+    font-size:20px;
+}
+
+.main__body > .my__infos > .my__location {
+    margin:25px 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.main__body > .my__infos > .my__location > span {
+    color:#F5FAFA;
+    font-size:17px;
+    margin:0 4px;
+}
+
+.main__body > .my__infos > .my__social__medias {
+    display:none;
+}
+
+.main__body > .my__infos > .coding__icon {
+    margin-top:30px;
+}
+
+.main__body > .my__infos > .button__div {
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:25px;
+    flex-direction:column;
+}
+
+@media screen and (max-width: 780px) {
+    .main__body > .my__infos {
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main__body > .my__infos > .my__social__medias {
+        display:block;
+    }
+
+    .main__body > .my__infos > .coding__icon {
+        display:none;
+    }
+}
