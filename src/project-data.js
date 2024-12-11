@@ -1,39 +1,39 @@
 const projectData = [
     {
-        name: 'Blog',
+        name: 'Blog - Lucas Codes',
         technologies: 'NodeJS',
-        demo: 'https://lukasz-ssr-blog.onrender.com/',
-        code: 'https://github.com/LuuCas21/Lukasz-ssr-blog',
+        demo: 'https://blog-website-9jpq.onrender.com/',
+        code: 'https://github.com/LuuCas2000/blog-website',
         cover: require('./image/portfolio--5.png')
     },
     {
         name: 'Todo List App',
         technologies: 'ReactJS - NodeJS',
-        demo: 'https://todoweb-online.netlify.app/',
-        code: 'https://github.com/LuuCas21/todoapp-nodejs',
+        demo: '',
+        code: '',
         cover: require('./image/portfolio--1.png')
     },
     {
         name: 'Markdown Note App',
         technologies: 'NodeJS',
-        demo: 'https://markdown-note-taking-app.onrender.com/',
-        code: 'https://github.com/LuuCas21/markdown-note-taking-app',
+        demo: 'https://markdown-note-taking-app-a5hf.onrender.com/',
+        code: 'https://github.com/LuuCas2000/markdown-note-taking-app',
         cover: require('./image/portfolio--6.png')
     },
     {
-        name: 'Store API',
-        technologies: 'ReactJS - NodeJS',
+        name: 'User Auth Page',
+        technologies: 'NodeJS',
         demo: '',
         code: '',
-        cover: require('./image/portfolio--2.png')
+        cover: require('./image/portfolio--7.png')
     },
-    {
+    /*{
         name: 'Translator App',
         technologies: 'NodeJS',
         demo: '',
         code: '',
         cover: require('./image/portfolio--4.png')
-    }
+    }*/
 ];
 
 export default projectData;

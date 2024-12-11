@@ -16,7 +16,7 @@ const SocialMediaIcons = () => {
         <div className="social_media_div">
             <div className="icons">
             <FaLinkedinIn onClick={() => window.open('https://www.linkedin.com/in/lucassouza200/')} style={socialMediaStyle}/>
-            <RiGithubLine onClick={() => window.open('https://github.com/LuuCas21')} style={socialMediaStyle}/>
+            <RiGithubLine onClick={() => window.open('https://github.com/LuuCas2000')} style={socialMediaStyle}/>
             <IoIosDocument style={socialMediaStyle}/>
             </div>
         </div>

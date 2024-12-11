@@ -24,7 +24,7 @@ const CarouselComponent = () => {
           breakpoint: { max: 460, min: 0 },
           items: 1
         }
-      };
+      }; 
     return (
     <Carousel arrows={false} renderButtonGroupOutside={true} customButtonGroup={ <ButtonGroup /> } partialVisbile={false} draggable={false} responsive={responsive}>
         {projectData.map((data, id) => {
