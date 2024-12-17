@@ -9,8 +9,8 @@ const projectData = [
     {
         name: 'Todo List App',
         technologies: 'ReactJS - NodeJS',
-        demo: '',
-        code: '',
+        demo: 'https://todo-list-web-project.netlify.app/',
+        code: 'https://github.com/LuuCas2000/todo-list-gui-reactjs',
         cover: require('./image/portfolio--1.png')
     },
     {
